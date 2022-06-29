@@ -1,3 +1,8 @@
+# Github pages settings
+domain: elviobg.github.io
+url: https://elviobg.github.io
+baseurl: /
+
 # Site settings
 title: Elvio Dev
 description: Página pessoal de um desenvolvedor de Software
