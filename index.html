@@ -1,3 +1,63 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Elvio Dev</title>
+        <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+        
+        <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="assets/css/main.css">
+    <body>
+        <div id="particles-js">
+            <div class="header">
+                <h1>
+                  <span class="site-title">Elvio Gomes</span>
+                  <span class="site-description">Software Developer</span>
+                </h1>
+                <div class="header-icons">
+                  <a aria-label="Linkedin" target="_blank" href="https://br.linkedin.com/in/elvio-gomes-94125854"><i class="icon fa fa-linkedin" aria-hidden="true"></i></a>
+                  <a aria-label="Github" target="_blank" href="https://github.com/elviobg"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
+                  <a aria-label="Instagram" target="_blank" href="https://www.instagram.com/elviobg/"><i class="icon fa fa-instagram" aria-hidden="true"></i></a>
+                  <a aria-label="Steam" target="_blank" href="https://steamcommunity.com/id/elviobg"><i class="icon fa fa-steam" aria-hidden="true"></i></a>
+                </div>
+                <div class="header-links">
+                  <a class="link" href="#about" data-scroll>About Me</a>
+                </div>
+            </div>
+            <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+          </div>          
+        <section id="about">
+            <div class="user-details">
+                <h1> Sobre </h1>
+                <p> Programador com maior interesse em desenvolvimento web e mobile e um pouquinho de design. Estuda temas relacionados à Bioinformática, Inteligência artificial e Jogos Digitais. Nas horas vagas lê e assiste muita coisa da cultura pop e nerd em geral. </p>
+              </div>
+                <div class="user">
+                  <div class="tech">
+                    <h2>Design</h2>
+                    <em alt="html5" class="devicon-html5-plain"></em>
+                    <em class="devicon-bootstrap-plain colored"></em>
+                    <em class="devicon-sass-original colored"></em>
+                  </div>
+                  <div class="tech">
+                    <h2>Code</h2>
+                    <em class="devicon-javascript-plain colored"></em>
+                    <em class="devicon-python-plain colored"></em>
+                    <em class="devicon-react-original colored"></em>
+                    <em class="devicon-nodejs-plain"></em>
+                  </div>
+                  <div class="tech">
+                    <h2>Tools</h2>
+                    <em class="devicon-git-plain"></em>
+                  </div>
+              </div>              
+        </section>
+        <footer class="footer">
+            <p>&copy;Elvio Gomes</p>
+        </footer>
+        <script src="assets/js/particles.js"></script>
+        <script src="assets/js/sweet-scroll.min.js"></script>
+        <script src="src/js/main.js"></script>
+    </body>
+</html>
