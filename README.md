@@ -22,7 +22,7 @@ Funcionalidades principais:
 Você pode acessar o site ao vivo por qualquer um dos links abaixo:  
 👉 **[https://elvio.dev](https://elvio.dev)**
 
-👉 **[https://elvio.dev.br](https://elvio.dev.br)**
+👉 **[http://elvio.dev.br](http://elvio.dev.br)**
 
 👉 **[https://elviobg.github.io](https://elviobg.github.io)**
 
